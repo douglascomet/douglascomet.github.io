@@ -1,14 +1,16 @@
 ---
 layout: post
 title: Chain Spline in UE4
-tags: [UE4]
+tags: [Blueprints, UE4]
 ---
 
-### Blueprint Breakdown
+This post is meant to explain my approach to procedurally generating chain links along a spline in UE4.
+
+# Blueprint Breakdown
 
 <img align="center" src="../blog/images/ChainSpline/Chain Spline Blueprint Breakdown.PNG">
 
-### The Problem
+## The Problem
 
 <img align="right" src="../blog/images/ChainSpline/ChainLinkCombined.PNG">
 
@@ -20,7 +22,7 @@ Since this combined mesh was used in levels already, I had to export the combine
 
 A spline could be used for other situations where slack is needed in the chains.
 
-### My Solution
+## My Solution
 
  <!--
 <a href="../blog/images/ChainSpline/ChainEnd.PNG" rel="lightbox[gallery]">

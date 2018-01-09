@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Scene Depth Post Process Material in UE4
-tags: [UE4]
+tags: [Materials, UE4]
 ---
 
-### Material Breakdown
+This post is meant to explain my approach to creating layers of colored fog using a post process material in UE4.
+
+# Material Breakdown
 
 <img align="center" src="../blog/images/CustomPPM/Custom Scene Depth Post Process.PNG">
-
 
 The visual aesthetic of the capstone game, [Hollowed](http://store.steampowered.com/app/669630/Hollowed/), drew inspiration from the work of [Mikael Gustafsson](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:13598).
 
@@ -17,7 +18,6 @@ The visual aesthetic of the capstone game, [Hollowed](http://store.steampowered.
 
 Together with [Leah Augustine](https://leahaugustine.com/), the Art Lead for this project, we dissected the aspects of the aspects that contributed to his graphical look. Fortunately for us Gustafsson also sold an asset pack he created for Unity that demonstrated his workflow. He used 3D assets within Unity to create vibrant imagery with subtle movements. That asset pack can be found here: [Mikael Gustafsson's Unity Store Page](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:13598)
 
-
 We determined we need those layers "colored fog" so I began to research ways to implement this. Forum posts like these served as the basis for my implementation:
 
 [https://answers.unrealengine.com/questions/210553/multicolored-fog-post-process-material.html](https://answers.unrealengine.com/questions/210553/multicolored-fog-post-process-material.html)
@@ -26,7 +26,7 @@ We determined we need those layers "colored fog" so I began to research ways to 
 
 [https://sainarayan.me/distance-fog-in-ue4/](https://storyteller-vr.com/2015/11/22/exponential-squared-fog-for-unreal-engine-4/)
 
-### My Solution
+## My Solution
 
 The red, blue, green, and black sections of my node network are almost identical but vary with parameter inputs. Starting with the red section, a color parameter is set to LERP between the masked RGB output of the Scene Texture. This allows the background to be unaffected by the post process material.
 ​
