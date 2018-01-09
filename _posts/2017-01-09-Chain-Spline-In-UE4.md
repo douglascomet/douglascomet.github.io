@@ -10,7 +10,7 @@ tags: [UE4]
 
 ### The Problem
 
-<img align="right" src="../blog/images/ChainSpline/ChainLinkCombined.PNG" width=17%>
+<img align="right" src="../blog/images/ChainSpline/ChainLinkCombined.PNG">
 
 For the [Hollowed](http://store.steampowered.com/app/669630/Hollowed/) project, there was a need to create chains. Initially, a single chain link was made. The chain itself was made manually by level designers. The problem with this direct approach meant that the chain only functioned in a straight line.
 
