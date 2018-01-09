@@ -14,9 +14,25 @@ Since this combined mesh was used in levels already, I had to export the combine
 A spline could be used for other situations where slack is needed in the chains.
 
 ### My Solution
+<link href="css/zoom.css" rel="stylesheet">
+<script src="js/zoom.js"></script>
+<script src="js/transition.js"></script>
 
+ <!-- Trigger the Modal -->
+<img id="myImg" src="../blog/images/ChainSpline/ChainEnd.PNG" alt="Trolltunga, Norway" data-action="zoom">
 
-<img align="right" src="../blog/images/ChainSpline/ChainEnd.PNG"/>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
 
  Anticipating that the chain would need to appear attached to surfaces, I created a mesh to be used as the ends for the chain. A simple mesh was made from half of the chain link and half of a low poly cylinder mesh.
 ​
