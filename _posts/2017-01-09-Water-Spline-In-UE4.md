@@ -19,6 +19,7 @@ I initially wanted to utilize Houdini Digital Assets for this but I encountered 
 I came across tutorials these tutorials:
 
 Zak Parrish's Spline Demo was especially informative and served as the basis for my spline blueprint.
+
 [https://docs.unrealengine.com/latest/INT/Videos/PLZlv_N0_O1ga0aV9jVqJgog0VWz1cLL5f/wR0fH6O9jD8/](https://docs.unrealengine.com/latest/INT/Videos/PLZlv_N0_O1ga0aV9jVqJgog0VWz1cLL5f/wR0fH6O9jD8/)
 
 [https://www.youtube.com/watch?v=kJyWSzfwEk8](https://www.youtube.com/watch?v=kJyWSzfwEk8)
@@ -39,7 +40,7 @@ Splines are essentially an array of points meaning I would need an array of my d
 
 The first function is a simple one storing the number of the spline points to a variable.
 
-<img align="right" src="../blog/images/WaterSpline/WaterSplineStoreSplinePoints.PNG">
+<img align="left" src="../blog/images/WaterSpline/WaterSplineStoreSplinePoints.PNG">
 
 Splines are essentially an array of points meaning I would need an array of my data structure to be able to feed the data into the points. So in my custom "Build Water Spline Element" function I match the size of an array variable of the data structure to number of points available.
 
