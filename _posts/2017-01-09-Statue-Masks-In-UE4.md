@@ -50,9 +50,11 @@ In the example of the construction script shown below, there were two mesh compo
 
 Louis Hofer, the Programming Lead for Hollowed, set up the rest of the blueprint not shown here but also made a very easy way to animate and feed information into the materials of the statues. By using a single timeline with linear slope from 0-1 the activation and deactivation of the statues could be animated. The level designer would use the exposed parameter "Start Emissive" to define the initial values of the statues. Zero would mean the statue would be off and the timeline would animate to One and illuminate the statue. Conversely if the statue was initially set to One and be illuminated, the timeline would animate to zero and turn off.
 
+<div>
 <img align="center" src="../blog/images/StatueMasks/StatueSphereMaskEvents.PNG">
 
 <img align="right" src="../blog/images/StatueMasks/StatueSphereMaskEventCalls.PNG">
+</div>
 
 In this blueprint, Louis used the "End Collision Component" to make calculations to determine when the character's spirit would overlap. I used that collision's volume's world location to feed into the vector parameter for the dynamic version of the mesh component's material so the sphere mask knew what point in space to work with.
 

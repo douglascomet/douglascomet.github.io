@@ -12,9 +12,11 @@ This post is meant to explain my approach to creating layers of colored fog usin
 
 The visual aesthetic of the capstone game, [Hollowed](http://store.steampowered.com/app/669630/Hollowed/), drew inspiration from the work of [Mikael Gustafsson](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:13598).
 
-<img align="center" src="../blog/images/CustomPPM/deer-anim3.gif">
+<div>
+<img align="left" src="../blog/images/CustomPPM/deer-anim3.gif" width="350" height="350">
 
-<img align="center" src="../blog/images/CustomPPM/snp-2.gif">
+<img align="right" src="../blog/images/CustomPPM/snp-2.gif" width="350" height="350">
+</div>
 
 Together with [Leah Augustine](https://leahaugustine.com/), the Art Lead for this project, we dissected the aspects of the aspects that contributed to his graphical look. Fortunately for us Gustafsson also sold an asset pack he created for Unity that demonstrated his workflow. He used 3D assets within Unity to create vibrant imagery with subtle movements. That asset pack can be found here: [Mikael Gustafsson's Unity Store Page](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:13598)
 
