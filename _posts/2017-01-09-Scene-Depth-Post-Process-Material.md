@@ -28,11 +28,11 @@ We determined we need those layers "colored fog" so I began to research ways to 
 
 ### My Solution
 
-<img align="left" src="../blog/images/CustomPPM/Custom Scene Depth Post Process Section Example.PNG">
-
- The red, blue, green, and black sections of my node network are almost identical but vary with parameter inputs. Starting with the red section, a color parameter is set to LERP between the masked RGB output of the Scene Texture. This allows the background to be unaffected by the post process material.
+The red, blue, green, and black sections of my node network are almost identical but vary with parameter inputs. Starting with the red section, a color parameter is set to LERP between the masked RGB output of the Scene Texture. This allows the background to be unaffected by the post process material.
 ​
 The alpha for color/Scene Texture LERP is determined by the quotient of the scene depth and an arbitrary parameter that the user determines as a point in worldspace. The quotient is then saturated to minimize the range of the resulting value.
+
+<img align="left" src="../blog/images/CustomPPM/Custom Scene Depth Post Process Section Example.PNG">
 
 At the bottom of the red section, the camera distance from the scene's objects is determined by taking the absolute world position and finding the distance from the camera position. This was then used to calculate the quotient by dividing by the LERP version of an arbitrary parameter that the user determines as a point in the worldspace. In order to make this result more noticeable, the result is put into a power node and finally saturated to limit the range of the resulting value.
 
