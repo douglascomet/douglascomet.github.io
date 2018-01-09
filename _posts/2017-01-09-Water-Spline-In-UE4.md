@@ -40,7 +40,7 @@ Splines are essentially an array of points meaning I would need an array of my d
 
 The first function is a simple one storing the number of the spline points to a variable.
 
-<img align="left" src="../blog/images/WaterSpline/WaterSplineStoreSplinePoints.PNG" width="55%" height="55%">
+<img align="left" src="../blog/images/WaterSpline/WaterSplineStoreSplinePoints.PNG" width="60%" height="60%">
 
 Splines are essentially an array of points meaning I would need an array of my data structure to be able to feed the data into the points. So in my custom "Build Water Spline Element" function I match the size of an array variable of the data structure to number of points available.
 
@@ -52,10 +52,12 @@ The Blue Section of this function is the first element of the sequence where eve
 
 To account for the user cases of making a river and a waterfall, I exposed a boolean in order to give the user the option to toggle choose between a plan or a cylinder that is instanced along the spline. The Grey Section and the second element of the sequence in the custom "Build Water Spline Element" function is the logic needed to attach the designated mesh to the spline.
 
-<img align="center" src="../blog/images/WaterSpline/WaterSplineBuildWaterDataAttachToSpline11.png">
+<img align="center" src="../blog/images/WaterSpline/WaterSplineBuildWaterDataAttachToSpline11.PNG">
 
-<img align="center" src="../blog/images/WaterSpline/WaterSplineBuildWaterDataAttachToSpline12.png">
+<img align="center" src="../blog/images/WaterSpline/WaterSplineBuildWaterDataAttachToSpline12.PNG">
 
-<img align="right" src="../blog/images/WaterSpline/WaterSplineDynamicMaterial.PNG">
+<img align="center" src="../blog/images/WaterSpline/WaterSplineBuildWaterDataAttachToSpline13.PNG">
+
+<img align="right" src="../blog/images/WaterSpline/WaterSplineDynamicMaterial.PNG" width="50%" height="50%">
 
  Just like there being an inherent array of points for the spline and an array of meshes attached to the spline, there needs to be an array of dynamic materials to match the number of meshes. The third element of the sequence leads to a series of set material parameter values. The exposed variables for the material are fed into each element of the dynamic material array. The only issue I came across wanting to scale the UVs. To ensure the material's textures would tile as expected, the UVs need to be scaled in relation to where mesh and its UVs are along the splines 0-1 range. There was not enough time in development to figure this out but the results were good enough that is was not necessary.
