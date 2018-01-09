@@ -6,10 +6,10 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Douglas Halley
+tagline:          My Development Blog
+description:      A blog for my ventures into Python, Maya, Houdini, UE4, and beyond.
+url:              https://douglascomet.github.io
 baseurl:          /
 
 author:
