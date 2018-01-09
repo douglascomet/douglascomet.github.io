@@ -12,9 +12,9 @@ tags: [UE4]
 The visual aesthetic of the capstone game, [Hollowed](http://store.steampowered.com/app/669630/Hollowed/), drew inspiration from the work of Mikael Gustafsson.
 
 <table>
-<img align="left" src="../blog/images/CustomPPM/deer-anim3.gif">
+<img align="left" src="../blog/images/CustomPPM/deer-anim3.gif" width=25%>
 
-<img align="right" src="../blog/images/CustomPPM/snp-2.gif">
+<img align="right" src="../blog/images/CustomPPM/snp-2.gif" width=25%>
 </table>
 
 
@@ -23,11 +23,11 @@ Together with [Leah Augustine](https://leahaugustine.com/), the Art Lead for thi
 
 We determined we need those layers "colored fog" so I began to research ways to implement this. Forum posts like these served as the basis for my implementation:
 
-https://answers.unrealengine.com/questions/210553/multicolored-fog-post-process-material.html
+[https://answers.unrealengine.com/questions/210553/multicolored-fog-post-process-material.html](https://answers.unrealengine.com/questions/210553/multicolored-fog-post-process-material.html)
 
-https://storyteller-vr.com/2015/11/22/exponential-squared-fog-for-unreal-engine-4/
+[https://storyteller-vr.com/2015/11/22/exponential-squared-fog-for-unreal-engine-4/](https://storyteller-vr.com/2015/11/22/exponential-squared-fog-for-unreal-engine-4/)
 
-https://sainarayan.me/distance-fog-in-ue4/
+[https://sainarayan.me/distance-fog-in-ue4/](https://storyteller-vr.com/2015/11/22/exponential-squared-fog-for-unreal-engine-4/)
 
 ### My Solution
 
