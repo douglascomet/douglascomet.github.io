@@ -36,7 +36,7 @@ This was all done in the construction script so the level designers can continua
 
 Splines are essentially an array of points meaning I would need an array of my data structure to be able to feed the data into the points. As shown the in construction script above I sequence out into a few stages of building the water spline.
 
-<img align="right" src="../blog/images/WaterSpline/WaterSplineExposedParameters.PNG">
+<img align="right" src="../blog/images/WaterSpline/WaterSplineExposedParameters.PNG"  width="20%" height="20%">
 
 The first function is a simple one storing the number of the spline points to a variable.
 
