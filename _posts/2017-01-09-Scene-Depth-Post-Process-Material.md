@@ -12,9 +12,9 @@ tags: [UE4]
 The visual aesthetic of the capstone game, [Hollowed](http://store.steampowered.com/app/669630/Hollowed/), drew inspiration from the work of Mikael Gustafsson.
 
 <table>
-<img align="left" src="../blog/images/CustomPPM/deer-anim3.gif" width=25%>
+<img align="center" src="../blog/images/CustomPPM/deer-anim3.gif">
 
-<img align="right" src="../blog/images/CustomPPM/snp-2.gif" width=25%>
+<img align="center" src="../blog/images/CustomPPM/snp-2.gif">
 </table>
 
 
@@ -31,7 +31,7 @@ We determined we need those layers "colored fog" so I began to research ways to 
 
 ### My Solution
 
-<img align="left" src="../blog/images/CustomPPM/Custom Scene Depth Post Process Section Example.PNG" width=27.5%>
+<img align="left" src="../blog/images/CustomPPM/Custom Scene Depth Post Process Section Example.PNG">
 
  The red, blue, green, and black sections of my node network are almost identical but vary with parameter inputs. Starting with the red section, a color parameter is set to LERP between the masked RGB output of the Scene Texture. This allows the background to be unaffected by the post process material.
 ​
