@@ -22,10 +22,13 @@ A spline could be used for other situations where slack is needed in the chains.
 
 ### My Solution
 
- <!-- Trigger the Modal -->
+ <!--
 <a href="../blog/images/ChainSpline/ChainEnd.PNG" rel="lightbox[gallery]">
 <img align="right" class="fancybox" id="myImg" src="../blog/images/ChainSpline/ChainEnd.PNG" alt="Trolltunga, Norway" data-big="big-image.jpg">
 </a>
+-->
+
+<img align="right" src="../blog/images/ChainSpline/ChainEnd.PNG">
 
  Anticipating that the chain would need to appear attached to surfaces, I created a mesh to be used as the ends for the chain. A simple mesh was made from half of the chain link and half of a low poly cylinder mesh.
 ​
