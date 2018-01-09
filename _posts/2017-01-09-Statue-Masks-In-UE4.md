@@ -22,21 +22,21 @@ In terms of gameplay the character, Halia, must offer her spirit, Oco, to these 
 
 Originally the statues would be illuminated gradually and uniformly. I wanted to setup a way for the statues to activate and deactivate. Based on where Oco is set to interact with the statues, Denial, Anger and Depression used the spherical mask that emanates from a point in world space. Oco interacts with the Bargaining statue in the empty hand and rather than using a sphereical mask I chose to use a vertical reveal. I wanted the bag in the statues other hand to be revealed last and a sphereical mask wouldn't have accomplished that.
 
-<img align="left" src="../blog/images/StatueMasks/DenialOn2.gif" width="150" height="150">
+<img align="left" src="../blog/images/StatueMasks/DenialOn2.gif" width="200" height="200">
 
-<img align="right" src="../blog/images/StatueMasks/DenialOff2.gif">
+<img align="right" src="../blog/images/StatueMasks/DenialOff2.gif" width="200" height="200">
 
-<img align="left" src="../blog/images/StatueMasks/AngerOn2.gif">
+<img align="left" src="../blog/images/StatueMasks/AngerOn2.gif" width="200" height="200">
 
-<img align="right" src="../blog/images/StatueMasks/AngerOff2.gif">
+<img align="right" src="../blog/images/StatueMasks/AngerOff2.gif" width="200" height="200">
 
-<img align="left" src="../blog/images/StatueMasks/BargainingOn2.gif">
+<img align="left" src="../blog/images/StatueMasks/BargainingOn2.gif" width="200" height="200">
 
-<img align="right" src="../blog/images/StatueMasks/BargainingOff2.gif">
+<img align="right" src="../blog/images/StatueMasks/BargainingOff2.gif" width="200" height="200">
 
-<img align="left" src="../blog/images/StatueMasks/DepressionOn2.gif">
+<img align="left" src="../blog/images/StatueMasks/DepressionOn2.gif" width="200" height="200">
 
-<img align="right" src="../blog/images/StatueMasks/DepressionOff2.gif">
+<img align="right" src="../blog/images/StatueMasks/DepressionOff2.gif" width="200" height="200">
 
 ## My Process
 
