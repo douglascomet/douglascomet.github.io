@@ -11,12 +11,9 @@ tags: [UE4]
 
 The visual aesthetic of the capstone game, [Hollowed](http://store.steampowered.com/app/669630/Hollowed/), drew inspiration from the work of [Mikael Gustafsson](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:13598).
 
-<table>
 <img align="center" src="../blog/images/CustomPPM/deer-anim3.gif">
 
 <img align="center" src="../blog/images/CustomPPM/snp-2.gif">
-</table>
-
 
 Together with [Leah Augustine](https://leahaugustine.com/), the Art Lead for this project, we dissected the aspects of the aspects that contributed to his graphical look. Fortunately for us Gustafsson also sold an asset pack he created for Unity that demonstrated his workflow. He used 3D assets within Unity to create vibrant imagery with subtle movements. That asset pack can be found here: [Mikael Gustafsson's Unity Store Page](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:13598)
 
@@ -31,7 +28,7 @@ We determined we need those layers "colored fog" so I began to research ways to 
 
 ### My Solution
 
-<img align="left" src="../blog/images/CustomPPM/Custom Scene Depth Post Process Section Example.PNG" width=50%>
+<img align="left" src="../blog/images/CustomPPM/Custom Scene Depth Post Process Section Example.PNG">
 
  The red, blue, green, and black sections of my node network are almost identical but vary with parameter inputs. Starting with the red section, a color parameter is set to LERP between the masked RGB output of the Scene Texture. This allows the background to be unaffected by the post process material.
 ​
@@ -43,7 +40,7 @@ At the bottom of the red section, the camera distance from the scene's objects i
 ​
 The output of the camera distance is fed into each section in an identical manner.section in an identical manner.
 
-<img align="left" src="../blog/images/CustomPPM/Custom Scene Depth Post Process Result Example.PNG" width=27.5%>
+<img align="left" src="../blog/images/CustomPPM/Custom Scene Depth Post Process Result Example.PNG">
 
 The Final Blend section takes the results of all the sections and LERPs the results against the Scene Texture in the foreground and the user defined Skysphere, far, medium, and near distances.
 ​

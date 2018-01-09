@@ -34,7 +34,7 @@ A spline could be used for other situations where slack is needed in the chains.
 ​
 With this mesh created, I began working on the blueprint and attached this mesh at the first and last point on a spline. I put all the functionality in the construction script so level designers could see the blueprint in action before gameplay. I created exposed parameters so the user could rotate the ends to make their placement believable to the level. For the end meshes to appear correctly on the spline, I had to move the pivots of the meshes. I also included a translation offset attached to the last spline point of the end meshes because sometimes the generation of chain links did not align perfectly with the last spline point.
 
-<img align="right" src="../blog/images/ChainSpline/Chain Exposed Variables.PNG" width=40%>
+<img align="right" src="../blog/images/ChainSpline/Chain Exposed Variables.PNG">
 
 The image to the right shows the exposed parameters for the chain link at the beginning and end of the chain. The level designer would use these values to to roate and position the ends of the chain link to match the surface the chain is mounted to.
 
