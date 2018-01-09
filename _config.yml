@@ -12,14 +12,11 @@ description:      A blog for my ventures into Python, Maya, Houdini, UE4, and be
 url:              https://douglascomet.github.io
 baseurl:          /
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
 paginate:         5
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+social:
+  name:           Douglas Halley
+  links:
+    - https://www.linkedin.com/in/raymonddhalley/
+    - https://raymonddhalley.wixsite.com/portfolio
+    - https://github.com/douglascomet
