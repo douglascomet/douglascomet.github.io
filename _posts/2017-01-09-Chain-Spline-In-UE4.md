@@ -16,7 +16,7 @@ A spline could be used for other situations where slack is needed in the chains.
 ### My Solution
 
 
-<img align="right" src="../blog/assets/ChainSpline/ChainEnd.png"/>
+<img align="right" src="../blog/images/ChainSpline/ChainEnd.png"/>
 
  Anticipating that the chain would need to appear attached to surfaces, I created a mesh to be used as the ends for the chain. A simple mesh was made from half of the chain link and half of a low poly cylinder mesh.
 ​
