@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ site.baseurl }}/">
           {{ site.title }}
         </a>
       </h1>
@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -26,10 +26,14 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Archive</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">Website</a>
+      <p>
+        <a class="sidebar-nav-icons" href="{{ site.custom_pages.feed }}" target="blank"><img src="{{ site.baseurl }}/public/rss_icon_32x32.png" alt="RSS feed" width="16" height="16"></a>
+        <a class="sidebar-nav-icons" href="http://cloud.feedly.com/#subscription/feed/{{ site.url }}{{ site.custom_pages.feed }}" target="blank"><img id="feedlyFollow" src="{{ site.baseurl }}/public/feedly_icon_37x32.png" alt="Follow me in feedly" width="19" height="16"></a>
+        <a class="sidebar-nav-icons" href="https://github.com/fredrikaverpil" target="blank"><img src="{{ site.baseurl }}/public/GitHub-Mark-Light-32px.png" alt="Github" width="16" height="16"></a>
+      </p>
+
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p><small>&copy; 2012-{{ site.time | date: "%Y" }} All rights reserved.</small></p>
   </div>
 </div>

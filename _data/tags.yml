@@ -16,10 +16,6 @@ mel:
   name: MEL
 nuke:
   name: Nuke
-osx:
-  name: OS X
-photography:
-  name: Photography
 portfolio:
   name: Portfolio
 photoshop:
@@ -39,4 +35,4 @@ vray:
 windows:
   name: Windows
 workflow:
-name: Workflow
+  name: Workflow
