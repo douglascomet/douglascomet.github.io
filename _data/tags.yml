@@ -1,0 +1,42 @@
+github:
+  name: Github
+github-pages:
+  name: Github Pages
+jekyll:
+  name: Jekyll
+houdini:
+  name: Houdini
+linux:
+  name: Linux
+maya:
+  name: Maya
+mentalray:
+  name: Mental Ray
+mel:
+  name: MEL
+nuke:
+  name: Nuke
+osx:
+  name: OS X
+photography:
+  name: Photography
+portfolio:
+  name: Portfolio
+photoshop:
+  name: Photoshop
+python:
+  name: Python
+pymel:
+  name: PyMel
+pyqt:
+  name: PyQt
+pyside:
+  name: PySide
+renderman:
+  name: Renderman
+vray:
+  name: V-Ray
+windows:
+  name: Windows
+workflow:
+name: Workflow
