@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statue Masks in UE4
-tags: [Materials, Blueprints, UE4]
+tags: [materials, blueprints, ue4]
 ---
 
 This post is meant to explain my approach to show how I animated statue materials in UE4.

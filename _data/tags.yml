@@ -1,3 +1,5 @@
+blueprints:
+  name: Blueprints
 github:
   name: Github
 github-pages:
@@ -8,6 +10,8 @@ houdini:
   name: Houdini
 linux:
   name: Linux
+materials:
+  name: Materials
 maya:
   name: Maya
 mentalray:
@@ -30,6 +34,10 @@ pyside:
   name: PySide
 renderman:
   name: Renderman
+ue4:
+  name: UE4
+unity:
+  name: Unity
 vray:
   name: V-Ray
 windows:

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Photoshop + Python = Pyotoshop?
-tags: [Python, PyQt, Photoshop]
+title: Python + Photoshop = Pyotoshop?
+tags: [python, pyqt, photoshop]
 ---
 
 I have joined a few freelance projects where it was necessary to purchase asset packs to expedite the development process. Texture files seemed to come in varying sizes and quality. To reduce performance costs I have had to manually resize several textures both inside and outside of the game engine. This is a tedious process and I started thinking it should be possible to automate this process.

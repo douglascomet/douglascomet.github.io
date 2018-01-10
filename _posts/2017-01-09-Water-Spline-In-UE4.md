@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Water Spline in UE4
-tags: [Blueprints, UE4]
+tags: [blueprints, ue4]
 ---
 
 This post is meant to explain my approach to procedurally generating rivers, lakes, and waterfalls along a spline in UE4.

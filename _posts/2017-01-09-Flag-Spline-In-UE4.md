@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chain Spline in UE4
-tags: [Blueprints, UE4]
+tags: [blueprints, ue4]
 ---
 
 This post is meant to explain my approach to procedurally generating flags, and in theory, any mesh along a spline in UE4.

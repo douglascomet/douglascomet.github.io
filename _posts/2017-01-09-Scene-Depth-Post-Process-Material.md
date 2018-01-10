@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scene Depth Post Process Material in UE4
-tags: [Materials, UE4]
+tags: [materials, ue4]
 ---
 
 This post is meant to explain my approach to creating layers of colored fog using a post process material in UE4.
