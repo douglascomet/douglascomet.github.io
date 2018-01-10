@@ -101,11 +101,15 @@ The comtypes searches for and creates an object of the application that matches 
 
 Here is what my PyQt UI looks like:
 
-<img align="center" src="../blog/images/Pyotoshop/Pyotoshop_UI_Combined.png" width="50%" height="50%">
+<img align="center" src="../blog/images/Pyotoshop/Pyotoshop_UI_Combined.png">
+
+It is broken up by a QTabWidget where the user can choose which tool set to use.
+
+### Packing Textures
 
 To pack a texture, grey textures are copied into the RGB or RGBA channels of a new texture. The script will search for matches between the input QLineEdits and suffixes in file names.
 
-### Packing Textures
+So the comtypes.client object is used to open a texture document and that is saved to a variable. I ged the width and height of the texture, select the contents of, what should only be 1 layer in the document, top layer, and then copy the contents. Then the I create a new document using the width and height values, set the new documents active channel to the specified channel, and then paste into that channel.
 
 ```python
 # open texture matching designated suffix to be used for R Channel
@@ -129,8 +133,6 @@ blank_doc = ps_app.Documents.Add(
 blank_doc.activeChannels = [blank_doc.channels['Red']]
 blank_doc.Paste()
 ```
-
-So the comtypes.client object is used to open a texture document and that is saved to a variable. I ged the width and height of the texture, select the contents of, what should only be 1 layer in the document, top layer, and then copy the contents. Then the I create a new document using the width and height values, set the new documents active channel to the specified channel, and then paste into that channel.
 
 The active channels are defined as an array of channels, therefore to get the right channel it can be selected by name.
 
