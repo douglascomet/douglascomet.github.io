@@ -3,28 +3,34 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+![]({{ site.url }}/blog/images/Doug Halley.jpg)
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I am a technical artist and soon to be graduate of the Florida Interactive Entertainment Academy's Masters program. I focus on visual effects, rigging, and scripting tools in Python. I'm passionate about perfecting every aspect of the production pipeline in order to make the imagined believable. My favorite aspect of the tech art field being able to facilitate the bridge between the artists and programmers.
 
-There are currently two themes built on Poole:
+In my spare time, I enjoy watching movies and playing video games. If I have access to a metal/wood shop I enjoy building props inspired from the most influential stories to me. My background from building comes from working with my dad to make household repairs and being a member of battle robots team in high school. My battle robots team were always underdogs and rarely won but I gained a lot of experience of using power tools like lathes, welding stations, band saws, grinders, and sanders.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+## Contact Info:
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+fredrik@averpil.com
+786-252-7403
+[github.com/douglascomet](https://github.com/douglascomet)
+[linkedin.com/in/raymonddhalley/](https://linkedin.com/in/raymonddhalley/)
 
-## Setup
 
-Some fun facts about the setup of this project include:
+## Blog info
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+This blog is based on the excellent [Hyde]({{ site.hyde_repo }}) theme (v{{ site.hyde_version }}) for [Poole](http://getpoole.com), running on [Github Pages](https://pages.github.com) but with some modifications:
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+- Tags
+- Post archive
+- Footnotes (because kramdown)
+- Excerpts on index page
+- Pinch and zoom on touch devices
+- Video embeds with fluidvids.js
+- Rouge syntax highlighter, modified version of [`dracula.css`](https://github.com/dracula/pygments)
+- Google Analytics
+- Comments (option to use Google+ or Disqus)
+- Switch to https if accessing site through http
+- Jekyll SEO
 
-Thanks for reading!
+The source code for this blog is available [here]({{ site.github.repo }}).
