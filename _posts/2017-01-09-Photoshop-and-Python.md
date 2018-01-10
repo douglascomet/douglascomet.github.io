@@ -10,6 +10,8 @@ I created a standalone Python exe that would open Photoshop perform the operatio
 
 This exe was aptly named 'Pyotoshop'...hokey, I know but makes me laugh when I think about it.
 
+Link to the Github [repo](https://github.com/douglascomet/PythonPhotoshop) for this project
+
 # Contents
 
 * os.walk vs scandir.walk
@@ -99,11 +101,7 @@ The comtypes searches for and creates an object of the application that matches 
 
 Here is what my PyQt UI looks like:
 
-<div>
-<img align="left" src="../blog/images/Pyotoshop/Pyotoshop_UI_1.PNG" width="35%" height="35%">
-
-<img align="right" src="../blog/images/Pyotoshop/Pyotoshop_UI_2.PNG" width="35%" height="35%">
-</div>
+<img align="center" src="../blog/images/Pyotoshop/Pyotoshop_UI_Combined.png" width="50%" height="50%">
 
 To pack a texture, grey textures are copied into the RGB or RGBA channels of a new texture. The script will search for matches between the input QLineEdits and suffixes in file names.
 
