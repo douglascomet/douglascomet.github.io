@@ -24,7 +24,7 @@ A spline could be used for other situations where slack is needed in the chains.
 
 ## My Solution
 
- <!--
+<!--
 <a href="../blog/images/ChainSpline/ChainEnd.PNG" rel="lightbox[gallery]">
 <img align="right" class="fancybox" id="myImg" src="../blog/images/ChainSpline/ChainEnd.PNG" alt="Trolltunga, Norway" data-big="big-image.jpg">
 </a>

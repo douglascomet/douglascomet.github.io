@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![]({{ site.url }}/blog/images/Doug Halley.jpg)
+<img align="left" src="../blog/images/Doug Halley.jpg"width="50%" height="50%">
 
 I am a technical artist and soon to be graduate of the Florida Interactive Entertainment Academy's Masters program. I focus on visual effects, rigging, and scripting tools in Python. I'm passionate about perfecting every aspect of the production pipeline in order to make the imagined believable. My favorite aspect of the tech art field being able to facilitate the bridge between the artists and programmers.
 
@@ -11,11 +11,10 @@ In my spare time, I enjoy watching movies and playing video games. If I have acc
 
 ## Contact Info:
 
-fredrik@averpil.com
+raymond.d.halley@gmail.com
 786-252-7403
 [github.com/douglascomet](https://github.com/douglascomet)
 [linkedin.com/in/raymonddhalley/](https://linkedin.com/in/raymonddhalley/)
-
 
 ## Blog info
 
