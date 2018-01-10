@@ -107,7 +107,7 @@ It is broken up by a QTabWidget where the user can choose which tool set to use.
 
 ### Packing Textures
 
-To pack a texture, grey textures are copied into the RGB or RGBA channels of a new texture. The script will search for matches between the input QLineEdits and suffixes in file names.
+To pack a texture, grey textures are copied into the RGB or RGBA channels of a new texture. The script will search for matches from the input QLineEdits and suffixes in the file names.
 
 So the comtypes.client object is used to open a texture document and that is saved to a variable. I ged the width and height of the texture, select the contents of, what should only be 1 layer in the document, top layer, and then copy the contents. Then the I create a new document using the width and height values, set the new documents active channel to the specified channel, and then paste into that channel.
 
