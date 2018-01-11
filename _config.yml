@@ -35,8 +35,8 @@ show_related_posts:   false
 force_https:          true
 
 # Comments
-comments:
-  use_disqus:         true
-  use_googleplus:     false
-  disqus_shortname:   douglascomet
+# comments:
+#   use_disqus:         true
+#   use_googleplus:     false
+#   disqus_shortname:   douglascomet
 
