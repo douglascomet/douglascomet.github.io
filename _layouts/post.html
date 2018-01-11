@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% include tags_for_page.html %}
-{% include disqus.html %}
+<!--{% include disqus.html %}-->
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
@@ -39,8 +39,10 @@ layout: default
 
 {% include fluidvids.html %}
 
+<!--
 {% if site.comments.use_googleplus == true %}
   {% include google_comments.html %}
 {% elsif site.comments.use_disqus == true %}
   {% include disqus_comments.html %}
 {% endif %}
+-->
