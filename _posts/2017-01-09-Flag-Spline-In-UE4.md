@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chain Spline in UE4
+title: Flag Spline in UE4
 tags: [blueprints, ue4]
 ---
 
