@@ -103,7 +103,7 @@ Here is what my PyQt UI looks like:
 
 <img align="center" src="https://douglascomet.github.io/blog/images/Pyotoshop/Pyotoshop_UI_Combined.png">
 
-It is broken up by a QTabWidget where the user can choose which tool set to use.
+The UI is seperated by a QTabWidget where the user can choose to either create a packed texture or resize all the textures in a directory.
 
 ### Packing Textures
 
