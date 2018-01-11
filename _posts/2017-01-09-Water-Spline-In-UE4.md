@@ -4,6 +4,14 @@ title: Water Spline in UE4
 tags: [blueprints, ue4]
 ---
 
+This blueprint produces a plane or cylinder to make the water look like a river, waterfall, or river based on level design needs. Each control point can be scaled and be positioned.
+
+Material by [Yunhao Huo](https://yunhao-huo.com/)
+
+<p>
+<iframe align="center" width="560" height="315" src="http://www.youtube.com/watch?v=-I0J-XnSAeE" frameborder="0" allowfullscreen></iframe>
+</p>
+
 This post is meant to explain my approach to procedurally generating rivers, lakes, and waterfalls along a spline in UE4.
 
 # Blueprint Breakdown
