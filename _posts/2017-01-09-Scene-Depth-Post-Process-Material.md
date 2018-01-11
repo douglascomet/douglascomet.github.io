@@ -8,14 +8,14 @@ This post is meant to explain my approach to creating layers of colored fog usin
 
 # Material Breakdown
 
-<img align="center" src="../blog/images/CustomPPM/Custom Scene Depth Post Process.PNG">
+<img align="center" src="https://douglascomet.github.io/blog/images/CustomPPM/Custom Scene Depth Post Process.PNG">
 
 The visual aesthetic of the capstone game, [Hollowed](http://store.steampowered.com/app/669630/Hollowed/), drew inspiration from the work of [Mikael Gustafsson](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:13598).
 
 <div>
-<img align="left" src="../blog/images/CustomPPM/deer-anim3.gif" width="350" height="350">
+<img align="left" src="https://douglascomet.github.io/blog/images/CustomPPM/deer-anim3.gif" width="350" height="350">
 
-<img align="right" src="../blog/images/CustomPPM/snp-2.gif" width="350" height="350">
+<img align="right" src="https://douglascomet.github.io/blog/images/CustomPPM/snp-2.gif" width="350" height="350">
 </div>
 
 Together with [Leah Augustine](https://leahaugustine.com/), the Art Lead for this project, we dissected the aspects of the aspects that contributed to his graphical look. Fortunately for us Gustafsson also sold an asset pack he created for Unity that demonstrated his workflow. He used 3D assets within Unity to create vibrant imagery with subtle movements. That asset pack can be found here: [Mikael Gustafsson's Unity Store Page](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:13598)
@@ -34,7 +34,7 @@ The red, blue, green, and black sections of my node network are almost identical
 ​
 The alpha for color/Scene Texture LERP is determined by the quotient of the scene depth and an arbitrary parameter that the user determines as a point in worldspace. The quotient is then saturated to minimize the range of the resulting value.
 
-<img align="left" src="../blog/images/CustomPPM/Custom Scene Depth Post Process Section Example.PNG">
+<img align="left" src="https://douglascomet.github.io/blog/images/CustomPPM/Custom Scene Depth Post Process Section Example.PNG">
 
 At the bottom of the red section, the camera distance from the scene's objects is determined by taking the absolute world position and finding the distance from the camera position. This was then used to calculate the quotient by dividing by the LERP version of an arbitrary parameter that the user determines as a point in the worldspace. In order to make this result more noticeable, the result is put into a power node and finally saturated to limit the range of the resulting value.
 
@@ -42,7 +42,7 @@ At the bottom of the red section, the camera distance from the scene's objects i
 ​
 The output of the camera distance is fed into each section in an identical manner.section in an identical manner.
 
-<img align="left" src="../blog/images/CustomPPM/Custom Scene Depth Post Process Result Example.PNG">
+<img align="left" src="https://douglascomet.github.io/blog/images/CustomPPM/Custom Scene Depth Post Process Result Example.PNG">
 
 The Final Blend section takes the results of all the sections and LERPs the results against the Scene Texture in the foreground and the user defined Skysphere, far, medium, and near distances.
 ​

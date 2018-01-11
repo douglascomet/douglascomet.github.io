@@ -8,7 +8,7 @@ I have joined a few freelance projects where it was necessary to purchase asset 
 
 I created a standalone Python exe that would open Photoshop perform the operations and used PyQt to make the GUI. My goal was to make a tool that can take seperate textures and pack them together into a new texture and also resize textures.
 
-This exe was aptly named 'Pyotoshop'...hokey, I know but makes me laugh when I think about it.
+This exe was aptly named 'Pyotoshop'https://douglascomet.github.io.hokey, I know but makes me laugh when I think about it.
 
 Link to the Github [repo](https://github.com/douglascomet/PythonPhotoshop) for this project
 
@@ -101,7 +101,7 @@ The comtypes searches for and creates an object of the application that matches 
 
 Here is what my PyQt UI looks like:
 
-<img align="center" src="../blog/images/Pyotoshop/Pyotoshop_UI_Combined.png">
+<img align="center" src="https://douglascomet.github.io/blog/images/Pyotoshop/Pyotoshop_UI_Combined.png">
 
 It is broken up by a QTabWidget where the user can choose which tool set to use.
 
@@ -238,7 +238,7 @@ And then inside the loop that I performed other operations I would manipulate th
 
 progress_dialog.setValue(current_index)
 
-progress_dialog.setLabelText('Packing %s...' % new_file_name_path)
+progress_dialog.setLabelText('Packing %shttps://douglascomet.github.io.' % new_file_name_path)
 
 if progress_dialog.wasCanceled():
     break
