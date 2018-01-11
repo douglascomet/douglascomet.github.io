@@ -9,7 +9,7 @@ This blueprint produces a plane or cylinder to make the water look like a river,
 Material by [Yunhao Huo](https://yunhao-huo.com/)
 
 <p>
-<iframe align="center" width="560" height="315" src="http://www.youtube.com/watch?v=-I0J-XnSAeE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/watch?v=-I0J-XnSAeE" frameborder="0" allowfullscreen></iframe>
 </p>
 
 This post is meant to explain my approach to procedurally generating rivers, lakes, and waterfalls along a spline in UE4.
