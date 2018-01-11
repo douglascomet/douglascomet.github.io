@@ -8,8 +8,16 @@ This post is meant to explain my approach to procedurally generating flags, and 
 
 # Blueprint Breakdown
 
-![](/blog/images/FlagSpline/Flag Spline Breakdown.PNG)
+<div style="text-align: center;">
+  <img src="../blog/images/FlagSpline/Flag Spline Breakdown.PNG">
+</div>
 
+<table>
+  <tr >
+    <td><img src="../blog/images/FlagSpline/Flag Spline Breakdown.PNG"/></td>
+  </tr>
+
+</table>
 
 ## The Problem
 
