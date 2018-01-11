@@ -20,3 +20,29 @@ social:
     - https://www.linkedin.com/in/raymonddhalley/
     - https://raymonddhalley.wixsite.com/portfolio
     - https://github.com/douglascomet
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-gist
+
+# Custom vars
+custom_pages:
+  feed:               /atom.xml
+github:
+    url:              https://github.com/douglascomet
+    repo:             https://github.com/douglascomet/douglascomet.github.io
+excerpt_separator:    <!--more-->
+google_analytics:     UA-70773524-1
+hyde_version:         2.1.0
+hyde_url:             http://hyde.getpoole.com
+hyde_repo:            https://github.com/poole/hyde
+show_related_posts:   false
+force_https:          true
+
+# Comments
+comments:
+  use_disqus:         true
+  use_googleplus:     false
+  disqus_shortname:   douglascomet
+
