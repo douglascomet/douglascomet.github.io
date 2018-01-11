@@ -14,7 +14,7 @@ This post is meant to explain my approach to procedurally generating flags, and 
 
 <table>
   <tr >
-    <td><img src="../blog/images/FlagSpline/Flag Spline Breakdown.PNG"/></td>
+    <td><img src="https://douglascomet.github.io/blog/images/FlagSpline/Flag Spline Breakdown.PNG"/></td>
   </tr>
 
 </table>
