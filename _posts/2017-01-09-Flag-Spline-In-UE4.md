@@ -9,7 +9,7 @@ This post is meant to explain my approach to procedurally generating flags, and 
 # Blueprint Breakdown
 
 <div style="text-align: center;">
-    <img src="../blog/images/FlagSpline/Flag Spline Breakdown.PNG">
+  <img src="../blog/images/FlagSpline/Flag Spline Breakdown.PNG">
 </div>
 
 ## The Problem

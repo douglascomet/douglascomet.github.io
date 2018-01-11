@@ -4,7 +4,7 @@ title: About
 ---
 
 <div style="text-align: right;">
-  <img src="../blog/images/Doug Halley.jpg" alt="profile picture">
+  <img src="../blog/images/FlagSpline/Flag Spline Breakdown.PNG" alt="profile picture">
 </div>
 
 I am a technical artist and graduate of the Florida Interactive Entertainment Academy's Masters program. I focus on visual effects, rigging, and scripting tools in Python. I'm passionate about perfecting every aspect of the production pipeline in order to make the imagined believable. My favorite aspect of the tech art field being able to facilitate the bridge between the artists and programmers.
