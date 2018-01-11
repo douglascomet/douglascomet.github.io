@@ -6,11 +6,11 @@ tags: [blueprints, ue4]
 
 This blueprint produces a plane or cylinder to make the water look like a river, waterfall, or river based on level design needs. Each control point can be scaled and be positioned.
 
-Material by [Yunhao Huo](https://yunhao-huo.com/)
+Material by [Yunhao Huo](https://yunhao-huo.com/){:target="_blank"}
 
-<p>
-<iframe width="560" height="315" src="http://www.youtube.com/watch?v=-I0J-XnSAeE" frameborder="0" allowfullscreen></iframe>
-</p>
+
+<iframe width="560" height="315" src="https://youtu.be/-I0J-XnSAeE" frameborder="0" allowfullscreen></iframe>
+
 
 This post is meant to explain my approach to procedurally generating rivers, lakes, and waterfalls along a spline in UE4.
 
