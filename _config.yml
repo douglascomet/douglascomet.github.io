@@ -10,7 +10,7 @@ title:            Douglas Halley
 tagline:          My Development Blog
 description:      A blog for my ventures into Python, Maya, Houdini, UE4, and beyond.
 url:              https://douglascomet.github.io
-baseurl:          /
+baseurl:
 
 paginate:         5
 

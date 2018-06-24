@@ -14,7 +14,6 @@ In my spare time, I enjoy watching movies and playing video games. If I have acc
 ## Contact Info:
 
 * raymond.d.halley@gmail.com
-* 786-252-7403
 * [github.com/douglascomet](https://github.com/douglascomet)
 * [linkedin.com/in/raymonddhalley/](https://linkedin.com/in/raymonddhalley/)
 
@@ -22,4 +21,16 @@ In my spare time, I enjoy watching movies and playing video games. If I have acc
 
 This blog is based on the excellent [Hyde]({{ site.hyde_repo }}) theme (v{{ site.hyde_version }}) for [Poole](http://getpoole.com), running on [Github Pages](https://pages.github.com) but with some awesome modifications by [Fredrik Averpil](https://fredrikaverpil.github.io/).
 
-The source code for this blog is available [here]({{ https://github.com/fredrikaverpil/fredrikaverpil.github.io}}).
+* Comments (option to use Google+ or Disqus)
+* Excerpts on index page
+* Footnotes (because kramdown)
+* Google Analytics
+* Jekyll SEO
+* Pinch and zoom on touch devices
+* Post archive
+* Rouge syntax highlighter, modified version of [`dracula.css`](https://github.com/dracula/pygments)
+* Switch to https if accessing site through http
+* Tags
+* Video embeds with fluidvids.js
+
+The source code for this blog is available [here]({{ site.github.repo }}).
