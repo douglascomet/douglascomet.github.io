@@ -4,6 +4,12 @@ title: Statue Masks in UE4
 tags: [materials, blueprints, ue4]
 ---
 
+Here is a demonstration of dynamic materials controlled through blueprint input. For gameplay purposes, the textures on the statues are animated to visually trigger events in the game, [Hollowed](http://store.steampowered.com/app/669630/Hollowed/).
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I4crEoGJUcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
+
 This post is meant to explain my approach to show how I animated statue materials in UE4.
 
 # Sphere Mask Node Network Breakdown

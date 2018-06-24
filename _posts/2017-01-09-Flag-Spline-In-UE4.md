@@ -4,6 +4,12 @@ title: Flag Spline in UE4
 tags: [blueprints, ue4]
 ---
 
+Creates flag meshes along the spline and has parameters to control the distance between flags, the scale of the flags, rotation of the flags, and the ability to change out the flag mesh for other meshes.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A3ogBQJ_CwU" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+</p>
+
 This post is meant to explain my approach to procedurally generating flags, and in theory, any mesh along a spline in UE4.
 
 # Blueprint Breakdown

@@ -4,6 +4,11 @@ title: Scene Depth Post Process Material in UE4
 tags: [materials, ue4]
 ---
 
+I developed this custom post process material for the project, [Hollowed](http://store.steampowered.com/app/669630/Hollowed/). It uses the scene depth to add color to the environment. There are four sections of the scene depth that can be colored by multiple colors.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CFChZOIaiAM" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+</p>
+
 This post is meant to explain my approach to creating layers of colored fog using a post process material in UE4.
 
 # Material Breakdown
@@ -18,7 +23,7 @@ The visual aesthetic of the capstone game, [Hollowed](http://store.steampowered.
 <img align="right" src="https://douglascomet.github.io/blog/images/CustomPPM/snp-2.gif" width="350" height="350">
 </div>
 
-Together with [Leah Augustine](https://leahaugustine.com/), the Art Lead for this project, we dissected the aspects of the aspects that contributed to his graphical look. Fortunately for us Gustafsson also sold an asset pack he created for Unity that demonstrated his workflow. He used 3D assets within Unity to create vibrant imagery with subtle movements. That asset pack can be found here: [Mikael Gustafsson's Unity Store Page](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:13598)
+Together with [Leah Augustine](https://leahaugustine.com/), the Art Lead for [Hollowed](http://store.steampowered.com/app/669630/Hollowed/), we dissected the aspects of the aspects that contributed to his graphical look. Fortunately for us Gustafsson also sold an asset pack he created for Unity that demonstrated his workflow. He used 3D assets within Unity to create vibrant imagery with subtle movements. That asset pack can be found here: [Mikael Gustafsson's Unity Store Page](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:13598)
 
 We determined we need those layers "colored fog" so I began to research ways to implement this. Forum posts like these served as the basis for my implementation:
 
