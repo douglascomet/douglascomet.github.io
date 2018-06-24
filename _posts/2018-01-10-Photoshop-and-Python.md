@@ -6,7 +6,7 @@ tags: [python, pyside, photoshop]
 
 I have joined a few freelance projects where it was necessary to purchase asset packs to expedite the development process. Texture files seemed to come in varying sizes and quality. To reduce performance costs I have had to manually resize several textures both inside and outside of the game engine. This is a tedious process and I started thinking it should be possible to automate this process.
 
-I created a standalone Python exe that would open Photoshop perform the operations and used PyQt to make the GUI. My goal was to make a tool that can take seperate textures and pack them together into a new texture and also resize textures.
+I created a standalone Python exe that would open Photoshop perform the operations and used Pyside to make the GUI. My goal was to make a tool that can take seperate textures and pack them together into a new texture and also resize textures.
 
 This exe was aptly named 'Pyotoshop'...hokey, I know but makes me laugh when I think about it.
 
@@ -17,7 +17,7 @@ Link to the Github [repo](https://github.com/douglascomet/PythonPhotoshop) for t
 * os.walk vs scandir.walk
 * Comtypes
 * Python Syntax for Photoshop
-* PyQt
+* Pyside
 
 ## os.walk vs scandir.walk
 
@@ -99,7 +99,7 @@ To open Photoshop I used this syntax:
 
 The comtypes searches for and creates an object of the application that matches the string input. The 'dynamic=True' parameter means it makes the best guess for the available version of Photoshop on the system. I stumbled upon this StackOverflow thread using comtypes for Excel, found [here](https://stackoverflow.com/questions/685589/problem-using-python-comtypes-library-to-add-a-querytable-to-excel), which used that attribute. I tested this attribute in my script on computers that only have 1 version of Photoshop installed; however, this syntax works with Photoshop CC 2017, CC 2018 and CS6. If there are multiple versions of Photoshop installed on a computer then Photoshop version would need to be specified in the execution.
 
-Here is what my PyQt UI looks like:
+Here is what my Pyside UI looks like:
 
 <img align="center" src="https://douglascomet.github.io/blog/images/Pyotoshop/Pyotoshop_UI_Combined.png">
 
@@ -212,11 +212,11 @@ ps_app.ActiveDocument.SaveAs(tga_file, tga_save_options, True)
 
 For exporting .jpg's and .png's I used the default settings. While in the .tga's I chose to specify some attributes.
 
-## PyQt - QProgressBar
+## Pyside - QProgressBar
 
 After being able to successfully pack and resize textures I noticed that I had no visual indication for the user the progress of the textures being processed. So I looked into how to implement how to use a QProgressBar.
 
-Here is the syntax I used when using PyQt4:
+Here is the syntax I used when using Pyside:
 
 ```python
 # Creates the QProgressDialog Window
