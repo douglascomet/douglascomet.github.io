@@ -34,6 +34,10 @@ google_analytics:     UA-70773524-1
 show_related_posts:   false
 force_https:          true
 
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
 # Comments
 # comments:
 #   use_disqus:         true
