@@ -19,7 +19,7 @@ In my spare time, I enjoy watching movies and playing video games. If I have acc
 
 ## Blog info
 
-This blog is based on the excellent [Hyde]({{ site.hyde_repo }}) theme (v{{ site.hyde_version }}) for [Poole](http://getpoole.com), running on [Github Pages](https://pages.github.com) but with some awesome modifications by [Fredrik Averpil](https://fredrikaverpil.github.io/).
+This blog is based on the excellent [Hyde]({{ site.hyde_repo }}) theme (v{{ site.hyde_version }}) for [Poole](http://getpoole.com), running on [Github Pages](https://pages.github.com) but with awesome additional modifications by [Fredrik Averpil](https://fredrikaverpil.github.io/).
 
 * Comments (option to use Google+ or Disqus)
 * Excerpts on index page
