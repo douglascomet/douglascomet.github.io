@@ -34,6 +34,7 @@ custom_pages:
 github:
   url:                https://github.com/douglascomet
   repo:               https://github.com/douglascomet/douglascomet.github.io
+excerpt_separator:    <!--more-->
 google_analytics:     UA-70773524-1
 show_related_posts:   false
 force_https:          true

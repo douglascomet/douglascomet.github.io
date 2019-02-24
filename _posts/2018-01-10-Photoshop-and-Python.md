@@ -6,6 +6,8 @@ tags: [python, pyside, photoshop]
 
 I have joined a few freelance projects where it was necessary to purchase asset packs to expedite the development process. Texture files seemed to come in varying sizes and quality. To reduce performance costs I have had to manually resize several textures both inside and outside of the game engine. This is a tedious process and I started thinking it should be possible to automate this process.
 
+<!--more-->
+
 I created a standalone Python exe that would open Photoshop perform the operations and used Pyside to make the GUI. My goal was to make a tool that can take seperate textures and pack them together into a new texture and also resize textures.
 
 This exe was aptly named 'Pyotoshop'...hokey, I know but makes me laugh when I think about it.
