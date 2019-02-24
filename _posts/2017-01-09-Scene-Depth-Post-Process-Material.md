@@ -4,12 +4,14 @@ title: Scene Depth Post Process Material in UE4
 tags: [materials, ue4]
 ---
 
-I developed this custom post process material for the project, [Hollowed](http://store.steampowered.com/app/669630/Hollowed/). It uses the scene depth to add color to the environment. There are four sections of the scene depth that can be colored by multiple colors.
+
+A breakdown of my approach to creating layers of colored fog using a post process material in UE4. It uses the scene depth to add color to the environment. There are four sections of the scene depth that can be colored by multiple colors.
+
+<!--more-->
+
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CFChZOIaiAM" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 </p>
-
-This post is meant to explain my approach to creating layers of colored fog using a post process material in UE4.
 
 # Material Breakdown
 

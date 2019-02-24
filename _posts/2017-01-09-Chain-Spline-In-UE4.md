@@ -4,13 +4,13 @@ title: Chain Spline in UE4
 tags: [blueprints, ue4]
 ---
 
-Generates chain links and has the functionality to adjust the ends in order to appear that the chain is attached to a given point.
+A breakdown of my approach to procedurally generating chain links along a spline in UE4 with adjustable ends in order to appear that the chain is attached to a given point.
+
+<!--more-->
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DJfiPv8_d7E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </p>
-
-This post is meant to explain my approach to procedurally generating chain links along a spline in UE4.
 
 # Blueprint Breakdown
 
