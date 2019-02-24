@@ -11,9 +11,15 @@ tagline:          My Development Blog
 description:      A blog for my ventures into Python, Maya, Houdini, UE4, and beyond.
 url:              https://douglascomet.github.io
 baseurl:
-
 paginate:         5
+name:             Doug Halley
 
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-gist
+
+# SEO
 social:
   name:           Douglas Halley
   links:
@@ -21,12 +27,10 @@ social:
     - https://raymonddhalley.wixsite.com/portfolio
     - https://github.com/douglascomet
 
-gems:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-gist
 
 # Custom vars
+custom_pages:
+  feed:               /atom.xml
 github:
   url:                https://github.com/douglascomet
   repo:               https://github.com/douglascomet/douglascomet.github.io
@@ -35,8 +39,8 @@ show_related_posts:   false
 force_https:          true
 
 # Plugins
-plugins:
-  - jekyll-seo-tag
+# plugins:
+#   - jekyll-seo-tag
 
 # Comments
 # comments:
